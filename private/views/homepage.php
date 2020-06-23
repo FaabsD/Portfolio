@@ -103,6 +103,14 @@
 				</span>
 			</p>
 			<button onclick="readMoreLess('item4')" class="read">Lees meer</button>
+			<div class="links">
+				<div class="link">
+					<i class="fas fa-globe "></i><a href="http://19959.hosts1.ma-cloud.nl/covid/public/" target="_blank">Bekijk live versie</a>
+				</div>
+				<div class="link">
+					<i class="fab fa-github"></i><a href="https://github.com/FaabsD/Covid" target="_blank">Bekijk op GitHub</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </a>
