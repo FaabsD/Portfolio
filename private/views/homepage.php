@@ -136,6 +136,25 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="container-item" data-item="item6">
+			<img src="<?php echo site_url('/images/image-frame-mobile-3.png')?>" alt="">
+			<h2>Ruimte voor werk</h2>
+			<p>
+				Hier komt toekomstig werk.
+				<!-- <span class="dots">...</span> -->
+				<!-- <span class="more"></span> -->
+			</p>
+			<!-- <button onclick="readMoreLess('item6')" class="read">Lees meer</button> -->
+			<!-- <div class="links">
+				<div class="link">
+					<i class="fas fa-globe"></i><a href="" target="_blank">Bekijk live versie</a>
+				</div>
+				<div class="link">
+					<i class="fab fa-github"></i><a href="" target="_blank">Bekijk op GitHub</a>
+				</div>
+			</div> -->
+		</div>
 	</div>
 </a>
 <?php $this->stop(); ?>
