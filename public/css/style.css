@@ -105,6 +105,7 @@ body {
 }
 
 .container-item .links .no-link a {
+  pointer-events: none;
   display: inline-block;
   margin-top: auto;
   margin-bottom: auto;
