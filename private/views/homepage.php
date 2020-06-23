@@ -129,10 +129,10 @@
 			<button onclick="readMoreLess('item5')" class="read">Lees meer</button>
 			<div class="links">
 				<div class="link">
-					<i class="fas fa-globe"></i><a href="">Bekijk live versie</a>
+					<i class="fas fa-globe"></i><a href="http://19959.hosts1.ma-cloud.nl/bewijzenmap/periode1.4/fro/LOTR/startDoc.html#" target="_blank">Bekijk live versie</a>
 				</div>
 				<div class="link">
-					<i class="fab fa-github"></i><a href="">Bekijk op GitHub</a>
+					<i class="fab fa-github"></i><a href="https://github.com/FaabsD/LOTR" target="_blank">Bekijk op GitHub</a>
 				</div>
 			</div>
 		</div>
