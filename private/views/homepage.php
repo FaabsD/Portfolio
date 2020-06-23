@@ -84,6 +84,7 @@
 				</div>
 			</div>
 		</div>
+		
 		<div class="container-item" data-item="item4">
 			<img src="<?php echo site_url('/images/image-frame-2.png')?>" alt="">
 			<h2>Covid-19 hulptool</h2>
@@ -109,6 +110,29 @@
 				</div>
 				<div class="link">
 					<i class="fab fa-github"></i><a href="https://github.com/FaabsD/Covid" target="_blank">Bekijk op GitHub</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-item" data-item="item5">
+			<img src="<?php echo site_url('/images/image-frame-3.png')?>" alt="">
+			<h2>Bootstrap Oefening</h2>
+			<p>
+				Een eerste oefening om kennis te maken met Bootstrap
+				<span class="dots">...</span>
+				<span class="more">
+					Om kennis te maken met Bootstrap kregen wij deze opdracht waarin gebruik gemaakt moest worden van Bootstrap.<br>
+					Hierin is er gebruik gemaakt van: <span class="HTML">HTML</span>, <span class="CSS">(Bootstrap) CSS</span>
+					& <span class="JS">JavaScript(JQuery, Bootstrap.js)</span>
+				</span>
+			</p>
+			<button onclick="readMoreLess('item5')" class="read">Lees meer</button>
+			<div class="links">
+				<div class="link">
+					<i class="fas fa-globe"></i><a href="">Bekijk live versie</a>
+				</div>
+				<div class="link">
+					<i class="fab fa-github"></i><a href="">Bekijk op GitHub</a>
 				</div>
 			</div>
 		</div>
