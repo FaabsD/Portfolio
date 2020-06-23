@@ -31,9 +31,10 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="container-item" data-item="item2">
 			<img src="<?php echo site_url('/images/image-frame-mobile-1.png') ?>" alt="">
-			<h2>De Fruitmachine</h2>
+			<h2>Opleidingspromo</h2>
 			<p>Dit was een Opdracht voor Projectmagement Waarbij ik een landingspage moest maken om mijn opleiding te promoten
 				<span class="dots">...</span><br>
 				<span class="more">
@@ -55,6 +56,25 @@
 					<i class="fab fa-github icon"></i><a href="">Bekijk op GitHub</a>
 				</div>
 			</div>
+		</div>
+
+		<div class="container-item" data-item="item3">
+			<img src="<?php echo site_url('/images/image-frame-mobile-2.png')?>" alt="">
+			<h2>The Wall</h2>
+			<p>
+				Een project waarbij je in teams van twee, een Instagram achtige website moest maken, 
+				je mocht bij dit project zelf bepalen voor welke doelgroep je dit ging maken
+				<span class="dots">...</span><br>
+				<span class="more">De vereisten voor dit project waren.<br>
+					De gebruiker moet zich kunnen registreren, kunnen inloggen en uitloggen. Gebruikers kunnen een afbeelding uploaden met een beschrijving.
+					Wat ik van dit project heb geleerd is dat een goede communicatie heel belangrijk is in een samenwerkings project.<br>
+					Dit project is gemaakt in: HTML, CSS, PHP & JavaScript. 
+					Mijn bijdrage aan dit project bestaat uit het maken van: Het registratie script(PHP), het upload script(PHP), het tonen van posts vanuit een database(PHP), 
+					het uitloggen(PHP) en het schuivende menu (HTML, CSS) 
+				</span>
+			</p>
+			<button onclick="readMoreLess('item3')" class="read">Lees meer</button>
+
 		</div>
 	</div>
 </a>
