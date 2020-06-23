@@ -76,7 +76,7 @@
 			</p>
 			<button onclick="readMoreLess('item3')" class="read">Lees meer</button>
 			<div class="links">
-				<div class="link disabled">
+				<div class="no-link">
 					<i class="fas fa-globe"></i><a href="">Bekijk live versie</a>
 				</div>
 				<div class="link">
