@@ -19,15 +19,16 @@
 			<p>Deze opdracht was voor één van de Front-end lessen.
 				De opdracht was om een fruitmachine te maken waarbij er willekeurige afbeeldingen op een rij worden geladen
 				<span class="dots">...</span><br>
-				<span class="more">gebruikte programmertalen: HTML, CSS & JavaScript</span>
+				<span class="more">gebruikte programmertalen: <span class="HTML">HTML</span>, 
+				<span class="CSS">CSS</span> & <span class="JS">JavaScript</span></span>
 			</p>
 			<button onclick="readMoreLess('item1')" class="read">Lees meer</button>
 			<div class="links">
 				<div class="link">
-					<i class="fas fa-globe icon"></i><a href="">Bekijk live versie</a>
+					<i class="fas fa-globe"></i><a href="">Bekijk live versie</a>
 				</div>
 				<div class="link">
-					<i class="fab fa-github icon"></i><a href="">Bekijk op GitHub</a>
+					<i class="fab fa-github"></i><a href="">Bekijk op GitHub</a>
 				</div>
 			</div>
 		</div>
@@ -42,7 +43,7 @@
 					- Wat je zo al op een landingspage moet laten terug komen<br>
 					- een werkende email formulier maken<br>
 
-					Gebruikte talen: HTML, CSS & PHP.
+					Gebruikte talen: <span class="HTML">HTML</span>, <span class="CSS">CSS</span> & <span class="PHP">PHP</span>.
 
 						
 				</span>
@@ -50,10 +51,10 @@
 			<button onclick="readMoreLess('item2')" class="read">Lees meer</button>
 			<div class="links">
 				<div class="link">
-					<i class="fas fa-globe icon"></i><a href="">Bekijk live versie</a>
+					<i class="fas fa-globe"></i><a href="">Bekijk live versie</a>
 				</div>
 				<div class="link">
-					<i class="fab fa-github icon"></i><a href="">Bekijk op GitHub</a>
+					<i class="fab fa-github"></i><a href="">Bekijk op GitHub</a>
 				</div>
 			</div>
 		</div>
@@ -68,13 +69,20 @@
 				<span class="more">De vereisten voor dit project waren.<br>
 					De gebruiker moet zich kunnen registreren, kunnen inloggen en uitloggen. Gebruikers kunnen een afbeelding uploaden met een beschrijving.
 					Wat ik van dit project heb geleerd is dat een goede communicatie heel belangrijk is in een samenwerkings project.<br>
-					Dit project is gemaakt in: HTML, CSS, PHP & JavaScript. 
+					Dit project is gemaakt in: <span class="HTML">HTML</span>, <span class="CSS">CSS</span>, <span class="PHP">PHP</span> & <span class="JS">JavaScript</span>. 
 					Mijn bijdrage aan dit project bestaat uit het maken van: Het registratie script(PHP), het upload script(PHP), het tonen van posts vanuit een database(PHP), 
 					het uitloggen(PHP) en het schuivende menu (HTML, CSS) 
 				</span>
 			</p>
 			<button onclick="readMoreLess('item3')" class="read">Lees meer</button>
-
+			<div class="links">
+				<div class="link disabled">
+					<i class="fas fa-globe"></i><a href="">Bekijk live versie</a>
+				</div>
+				<div class="link">
+					<i class="fab fa-github"></i><a href="">Bekijk live versie</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </a>
