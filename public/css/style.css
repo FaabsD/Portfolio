@@ -70,6 +70,27 @@ body {
      object-fit: contain;
 }
 
+.container-item .HTML {
+  color: #ff9000;
+}
+
+.container-item .CSS {
+  color: #04c0e5;
+}
+
+.container-item .PHP {
+  color: #6801b2;
+}
+
+.container-item .JS {
+  color: #f05a28;
+}
+
+.container-item .HTML, .container-item .CSS, .container-item .PHP, .container-item .JS {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 .container-item .read {
   color: #0033FF;
   background: none;
@@ -77,9 +98,13 @@ body {
   text-decoration: underline;
 }
 
+.container-item .links .disabled {
+  color: #a30303;
+}
+
 .container-item .links .link {
   height: 35px;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .container-item .links .link a {
@@ -88,10 +113,5 @@ body {
   margin-bottom: auto;
   text-decoration: none;
   color: #000000;
-}
-
-.container-item .links .icon {
-  display: inline-block;
-  font-size: 34px;
 }
 /*# sourceMappingURL=style.css.map */
