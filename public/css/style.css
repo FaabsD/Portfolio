@@ -98,7 +98,17 @@ body {
   text-decoration: underline;
 }
 
-.container-item .links .disabled {
+.container-item .links .no-link {
+  height: 35px;
+  font-size: 24px;
+  color: #a30303;
+}
+
+.container-item .links .no-link a {
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: line-through;
   color: #a30303;
 }
 
