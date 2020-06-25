@@ -165,5 +165,22 @@
 <div class="about">
 	<img src="https://via.placeholder.com/130" alt="">
 	<h2>Over mij:</h2>
+	<p>
+		<br>Mijn naam is Fabian Hendriks, ik ben 21 jaar en ik kom uit Zaandam.<br>
+		Naast het coderen ben ik ook graag bezig met opmaak en het bewerken van foto's.<br>
+		Ik een student aan de opleiding Media development aan het Mediacollege Amsterdam.
+		Hiervoor heb ik ook al de opleiding Allround DTP-er gevolgd tevens bij Mediacollege Amsterdam,
+		hierdoor weet ik ook al het één en ander van opmaak. 
+		Gedurende deze opleiding kwam ik in contact met HTML en CSS waardoor ik ook interesse kreeg in web development wardoor ik dacht "hey dit zou ik best met elkaar kunnen combineren."
+		En zo ben ik op deze opleiding terecht gekomen.<br><br>
+	</p>
+	<h3>Vaardigheden:</h3>
+	<p>
+		Ik heb ervaring met de talen: <span class="marked">HTML</span>, <span class="marked">CSS</span>, 
+		<span class="marked">JavaScript</span> & <span class="marked">PHP</span>.<br>
+		Ik heb ook veel ervaring met: <span class="marked">Adobe Photoshop</span>, 
+		<span class="marked">Illustrator</span>, <span class="marked">Indesign</span> 
+		& <span class="marked">XD</span>.
+	</p>
 </div>
 <?php $this->stop()?>
