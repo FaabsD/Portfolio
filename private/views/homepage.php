@@ -182,5 +182,33 @@
 		<span class="marked">Illustrator</span>, <span class="marked">Indesign</span> 
 		& <span class="marked">XD</span>.
 	</p>
+	<div class="skills">
+		<div class="skill">
+			<strong>HTML</strong>
+			<div class="skillbar">
+				<div class="progress" style="width: 75%;"></div>
+			</div>
+		</div>
+
+		<div class="skill">
+			<strong>CSS</strong>
+			<div class="skillbar">
+				<div class="progress" style="width: 75%;"></div>
+			</div>
+		</div>
+
+		<div class="skill">
+			<strong>JavaScript</strong>
+			<div class="skillbar">
+				<div class="progress" style="width: 33%;"></div>
+			</div>
+		</div>
+		<div class="skill">
+			<strong>PHP</strong>
+			<div class="skillbar">
+				<div class="progress" style="width: 50%;"></div>
+			</div>
+		</div>
+	</div>
 </div>
 <?php $this->stop()?>
