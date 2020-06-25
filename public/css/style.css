@@ -54,7 +54,7 @@ body {
 
 .container-item {
   text-align: center;
-  font-size: 14px;
+  font-size: 1em;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -100,7 +100,7 @@ body {
 
 .container-item .links .no-link {
   height: 35px;
-  font-size: 24px;
+  font-size: 1.7em;
   color: #a30303;
 }
 
@@ -115,7 +115,7 @@ body {
 
 .container-item .links .link {
   height: 35px;
-  font-size: 24px;
+  font-size: 1.7em;
 }
 
 .container-item .links .link a {
@@ -124,5 +124,18 @@ body {
   margin-bottom: auto;
   text-decoration: none;
   color: #000000;
+}
+
+.about {
+  margin-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.about img {
+  border: 1px solid black;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
