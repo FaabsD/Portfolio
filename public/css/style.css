@@ -156,4 +156,27 @@ body {
   font-style: italic;
   text-decoration: underline;
 }
+
+.about .skills {
+  margin-top: 12.5px;
+}
+
+.about .skills .skill {
+  text-align: left;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
+}
+
+.about .skills .skill .skillbar {
+  border-radius: 25em;
+  height: 20px;
+  width: 100%;
+  background-color: #DADADA;
+}
+
+.about .skills .skill .skillbar .progress {
+  border-radius: 25em;
+  height: 20px;
+  background-color: #56B5FF;
+}
 /*# sourceMappingURL=style.css.map */
