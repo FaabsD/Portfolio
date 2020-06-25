@@ -161,3 +161,9 @@
 
  <!-- TODO: Contact page maken -->
 <?php $this->stop(); ?>
+<?php $this->start('about')?>
+<div class="about">
+	<img src="https://via.placeholder.com/130" alt="">
+	<h2>Over mij:</h2>
+</div>
+<?php $this->stop()?>
