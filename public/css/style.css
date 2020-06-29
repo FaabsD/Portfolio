@@ -53,6 +53,7 @@ body {
 }
 
 .container-item {
+  border-bottom: 2px dashed #000080;
   text-align: center;
   font-size: 1em;
   margin-top: 50px;
@@ -116,6 +117,7 @@ body {
 .container-item .links .link {
   height: 35px;
   font-size: 1.7em;
+  color: #000080;
 }
 
 .container-item .links .link a {
@@ -123,7 +125,7 @@ body {
   margin-top: auto;
   margin-bottom: auto;
   text-decoration: none;
-  color: #000000;
+  color: #000080;
 }
 
 .about {
