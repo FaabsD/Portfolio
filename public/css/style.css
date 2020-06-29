@@ -222,4 +222,17 @@ body {
   border-radius: 25px;
   padding: 15px;
 }
+
+.contact-form form input[type="submit"] {
+  margin-top: 6.5px;
+  margin-bottom: 6.5px;
+  background-color: #000080;
+  color: #ffffff;
+  height: 50px;
+  width: 164px;
+  border: none;
+  border-radius: 25em;
+  font-size: 1.1em;
+  font-weight: 900;
+}
 /*# sourceMappingURL=style.css.map */
