@@ -11,8 +11,8 @@
 </div>
 <?php $this->stop(); ?>
 <?php $this->start('projects'); ?>
-<a name="projects">
 	<div class="projects-container">
+		<a name="projects"></a>
 		<div class="container-item" data-item="item1">
 			<img src="<?php echo site_url('/images/image-frame-1.png') ?>" alt="">
 			<h2>De Fruitmachine</h2>
@@ -156,7 +156,7 @@
 			</div> -->
 		</div>
 	</div>
-</a>
+
 <?php $this->stop(); ?>
 <?php $this->start('about')?>
 <div class="about">
