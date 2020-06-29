@@ -210,3 +210,16 @@
 	</div>
 </div>
 <?php $this->stop()?>
+<?php $this->start('contact')?>
+<div class="contact-form">
+	<h2>Neem contact met mij op.</h2>
+	<form action="" method="post">
+		<input type="text" name="fullname" placeholder="Voor-Achternaam:">
+		<input type="email" name="email" placeholder="E-mail:">
+		<input type="text" name="subject" placeholder="Onderwerp:">
+		<textarea name="message" placeholder="Bericht:" cols="30" rows="10"></textarea>
+		<input type="submit" value="Verzenden">
+	</form>
+</div>
+
+<?php $this->stop()?>
