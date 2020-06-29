@@ -17,6 +17,7 @@
     <main>
         <?php echo $this->section('projects')?>
         <?php echo $this->section('about')?>
+        <?php echo $this->section('contact')?>
     </main>
     <script src="<?php echo site_url('/js/readmore.js')?>"></script>
 </body>
