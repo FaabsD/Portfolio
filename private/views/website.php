@@ -19,6 +19,9 @@
         <?php echo $this->section('about')?>
         <?php echo $this->section('contact')?>
     </main>
+    <footer>
+        <?php echo $this->section('footer')?>
+    </footer>
     <script src="<?php echo site_url('/js/readmore.js')?>"></script>
 </body>
 
