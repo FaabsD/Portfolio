@@ -19,8 +19,8 @@ body {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    margin-left: 99px;
-    margin-right: 99px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
 
@@ -104,9 +104,12 @@ body {
 }
 
 .container-item .read {
-  color: #0033FF;
-  background: none;
+  margin: .5rem;
+  padding: 1rem;
+  color: #ffffff;
+  background-color: #000080;
   border: none;
+  border-radius: 25rem;
   text-decoration: underline;
 }
 
@@ -145,6 +148,58 @@ body {
 
 .container-item .links .icon {
   margin-right: .3em;
+}
+
+@media screen and (min-width: 1024px) {
+  .projects-container {
+    display: -ms-grid;
+    display: grid;
+    grid-column: 1/-1;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    padding: unset;
+  }
+  .container-item {
+    border-bottom: 2px solid #000080;
+    margin: unset;
+  }
+  .container-item img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+    height: 465px;
+  }
+  .container-item p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+  .container-item .read {
+    cursor: pointer;
+  }
+  .container-item .links {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .container-item .links .no-link {
+    padding: 0;
+    height: unset;
+    font-size: 1.5em;
+  }
+  .container-item .links .no-link a {
+    font-size: 1.2em;
+  }
+  .container-item .links .link {
+    padding: 0;
+    height: unset;
+    font-size: 1.5em;
+  }
+  .container-item .links .link a {
+    font-size: 1.2em;
+  }
 }
 
 .about {
