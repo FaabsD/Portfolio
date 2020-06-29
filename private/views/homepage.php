@@ -157,7 +157,6 @@
 		</div>
 	</div>
 </a>
- <!-- TODO: Contact page maken -->
 <?php $this->stop(); ?>
 <?php $this->start('about')?>
 <div class="about">
