@@ -102,6 +102,8 @@ body {
 .container-item .links .no-link {
   height: 35px;
   font-size: 1.7em;
+  margin-top: .25em;
+  margin-bottom: .25em;
   color: #a30303;
 }
 
@@ -117,6 +119,8 @@ body {
 .container-item .links .link {
   height: 35px;
   font-size: 1.7em;
+  margin-top: .25em;
+  margin-bottom: .25em;
   color: #000080;
 }
 
@@ -126,6 +130,10 @@ body {
   margin-bottom: auto;
   text-decoration: none;
   color: #000080;
+}
+
+.container-item .links .icon {
+  margin-right: .3em;
 }
 
 .about {
