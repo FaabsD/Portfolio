@@ -221,3 +221,12 @@
 </div>
 
 <?php $this->stop()?>
+<?php $this->start('footer')?>
+	<div class="socials">
+		<a href=""><i class="fab fa-linkedin"></i></a>
+		<a href=""><i class="fab fa-github"></i></a>
+	</div>
+	<div class="copy">
+		<h4>&copy;<?php echo date("Y")?> Fabian Hendriks</h4>
+	</div>
+<?php $this->stop()?>
