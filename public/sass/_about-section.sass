@@ -5,6 +5,8 @@
     text-align: center
     font-size: 1em
     img
+        width: 130px
+        height: 130px
         border: 1px solid black
         border-radius: 50%
     h2
@@ -35,3 +37,32 @@
                     border-radius: 25em
                     height: 20px
                     background-color: $main
+
+@media screen and (min-width: $tablet-desktop)
+    .about
+        padding: unset
+        margin-top: unset
+        img
+            float: left
+            margin-right: 1em
+            height: 200px
+            width: 200px
+       
+        .skills
+            margin-top: 25px
+            .skill
+                text-align: center
+                margin-top: 25px
+                margin-bottom: 25px
+                .skillbar
+                    margin-left: auto
+                    margin-right: auto
+                    border-radius: 25em
+                    height: 20px
+                    width: 80%
+                    background-color: $skillbar-base
+                    box-shadow: $skillbar-ds
+                    .progress
+                        border-radius: 25em
+                        height: 20px
+                        background-color: $main
