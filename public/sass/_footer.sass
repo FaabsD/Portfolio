@@ -10,5 +10,14 @@ footer
     margin: auto
 .socials
     a
+        padding: .5rem
         color: #fff
         font-size: 2rem
+
+@media screen and ( min-width: $tablet-desktop )
+    footer
+        .socials
+            a
+                &:hover
+                    color: $skillbar-base
+    

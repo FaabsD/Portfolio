@@ -404,7 +404,14 @@ footer {
 }
 
 .socials a {
+  padding: .5rem;
   color: #fff;
   font-size: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  footer .socials a:hover {
+    color: #DADADA;
+  }
 }
 /*# sourceMappingURL=style.css.map */
