@@ -5,6 +5,11 @@
   scroll-behavior: smooth;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -278,6 +283,7 @@ body {
   }
   .about img {
     float: left;
+    margin-bottom: 1em;
     margin-right: 1em;
     height: 200px;
     width: 200px;
@@ -379,5 +385,26 @@ body {
     width: 100%;
     height: 300px;
   }
+}
+
+footer {
+  margin-top: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto auto;
+      grid-template-columns: 1fr auto auto;
+  color: #fff;
+  text-align: justify;
+  padding: 1rem;
+  background-color: #000080;
+}
+
+.copy {
+  margin: auto;
+}
+
+.socials a {
+  color: #fff;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
