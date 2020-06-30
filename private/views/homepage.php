@@ -11,8 +11,7 @@
 </div>
 <?php $this->stop(); ?>
 <?php $this->start('projects'); ?>
-	<a name="projects" style="visibility: hidden;"></a>
-	<div class="projects-container">
+	<div id="projects" class="projects-container">
 		<div class="container-item" data-item="item1">
 			<img src="<?php echo site_url('/images/image-frame-1.png') ?>" alt="">
 			<h2>De Fruitmachine</h2>
@@ -156,7 +155,6 @@
 			</div> -->
 		</div>
 	</div>
-
 <?php $this->stop(); ?>
 <?php $this->start('about')?>
 <div class="about">
