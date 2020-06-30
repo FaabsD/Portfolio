@@ -163,11 +163,13 @@ body {
     padding: unset;
   }
   .container-item {
+    -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: 1fr auto auto auto;
         grid-template-rows: 1fr auto auto auto;
-    border-bottom: none;
+    border-bottom: unset;
     margin: unset;
   }
   .container-item img {
