@@ -71,7 +71,9 @@
         grid-gap: 100px
         padding: unset
     .container-item
-        border-bottom: 2px solid $main
+        display: grid
+        grid-template-rows: 1fr auto auto auto
+        border-bottom: none
         margin: unset
         img
             object-fit: contain
@@ -82,6 +84,9 @@
             margin-right: auto
             width: 75%
         .read
+            margin-left: auto
+            margin-right: auto
+            max-width: 75%
             cursor: pointer
         .links
             display: grid
@@ -89,13 +94,13 @@
             .no-link
                 padding: 0
                 height: unset
-                font-size: 1.5em
+                font-size: 1.2em
                 a
                     font-size: 1.2em
             .link
                 padding: 0
                 height: unset
-                font-size: 1.5em
+                font-size: 1.2em
                 a
                     font-size: 1.2em
             
