@@ -161,8 +161,8 @@
 	<img src="https://via.placeholder.com/130" alt="">
 	<h2>Over mij:</h2>
 	<p>
-		<br>Mijn naam is Fabian Hendriks, ik ben 21 jaar en ik kom uit Zaandam.<br>
-		Naast het coderen ben ik ook graag bezig met opmaak en het bewerken van foto's.<br>
+		<br>Mijn naam is Fabian Hendriks, ik ben 21 jaar en ik kom uit Zaandam.
+		Naast het coderen ben ik ook graag bezig met opmaak en het bewerken van foto's.
 		Ik een student aan de opleiding Media development aan het Mediacollege Amsterdam.
 		Hiervoor heb ik ook al de opleiding Allround DTP-er gevolgd tevens bij Mediacollege Amsterdam,
 		hierdoor weet ik ook al het één en ander van opmaak. 
@@ -223,8 +223,8 @@
 <?php $this->stop()?>
 <?php $this->start('footer')?>
 	<div class="socials">
-		<a href=""><i class="fab fa-linkedin"></i></a>
-		<a href=""><i class="fab fa-github"></i></a>
+		<a href="https://www.linkedin.com/in/fabian-hendriks-7772601b1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+		<a href="https://github.com/FaabsD" target="_blank"><i class="fab fa-github"></i></a>
 	</div>
 	<div class="copy">
 		<h4>&copy;<?php echo date("Y")?> Fabian Hendriks</h4>
