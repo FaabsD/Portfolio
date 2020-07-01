@@ -129,6 +129,4 @@ function contactMe($naam, $email, $onderwerp, $bericht, $ontvanger){
 		$message = createEmailMessage($ontvanger, $onderwerp, $naam, $email);
 		$message->setBody($bericht);
 		$mailer->send($message);
-	$confirmation = "Uw bericht is verzonden";
-	return $confirmation;
 }
