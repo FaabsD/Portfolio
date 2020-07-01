@@ -13,6 +13,10 @@ SimpleRouter::group( [ 'prefix' => site_url() ], function () {
 
 	SimpleRouter::get( '/', 'WebsiteController@home' )->name( 'home' );
 
+	// Email Routes
+	SimpleRouter::get('/testmail', 'EmailController@sendTestEmail')->name( 'email.test' );
+	SimpleRouter::post('/verstuur-bericht', 'EmailController@sendEmail')->name( 'email.send' );
+
 
 	// STOP: Tot hier al je eigen URL's zetten
 	SimpleRouter::get( '/not-found', function () {
