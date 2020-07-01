@@ -35,7 +35,7 @@ class EmailController {
 
 		//laat een bevestiging zien
 
-		$confirmation = "Uw bericht is verzonden";
+		$confirmation = '<script>alert("Uw bericht is verzonden");</script>';
 
 		$template_engine = get_template_engine();
 		echo $template_engine->render('homepage', ['confirmation' => $confirmation]);
