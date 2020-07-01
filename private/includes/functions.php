@@ -120,3 +120,15 @@ function createEmailMessage( $to, $subject, $from_name, $from_email ) {
 	// Send the message
 	return $message;
 }
+
+/**
+ * Verstuur een bericht naar mij toe
+ */
+function contactMe($naam, $email, $onderwerp, $bericht, $ontvanger){
+	$mailer = getSwiftMailer();
+		$message = createEmailMessage($ontvanger, $onderwerp, $naam, $email);
+		$message->setBody($bericht);
+		$mailer->send($message);
+	$confirmation = "Uw bericht is verzonden";
+	return $confirmation;
+}
