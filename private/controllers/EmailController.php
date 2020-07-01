@@ -32,6 +32,14 @@ class EmailController {
 
 		// echo $naam.' '.$email.' '.$onderwerp.' '.$bericht; 
 		contactMe($naam, $email, $onderwerp, $bericht, $ontvanger);
+
+		//laat een bevestiging zien
+
+		$confirmation = "Uw bericht is verzonden";
+
+		$template_engine = get_template_engine();
+		echo $template_engine->render('homepage', ['confirmation' => $confirmation]);
+
 	}
 
 }
