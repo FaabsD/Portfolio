@@ -232,3 +232,10 @@
 		<h4>&copy;<?php echo date("Y")?> Fabian Hendriks</h4>
 	</div>
 <?php $this->stop()?>
+<!-- mail instelling config
+	'MAIL' => [
+		'SMTP_HOST' => '',
+		'SMTP_USER' => '',
+		'SMTP_PASSWORD' => '',
+		'SMTP_PORT' => ''
+	], -->
