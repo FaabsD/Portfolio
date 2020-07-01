@@ -163,7 +163,7 @@
 	<p>
 		<br>Mijn naam is Fabian Hendriks, ik ben 21 jaar en ik kom uit Zaandam.
 		Naast het coderen ben ik ook graag bezig met opmaak en het bewerken van foto's.
-		Ik een student aan de opleiding Media development aan het Mediacollege Amsterdam.
+		Ik ben een student aan de opleiding Media development aan het Mediacollege Amsterdam.
 		Hiervoor heb ik ook al de opleiding Allround DTP-er gevolgd tevens bij Mediacollege Amsterdam,
 		hierdoor weet ik ook al het één en ander van opmaak. 
 		Gedurende deze opleiding kwam ik in contact met HTML en CSS waardoor ik ook interesse kreeg in web development wardoor ik dacht "hey dit zou ik best met elkaar kunnen combineren."
@@ -210,7 +210,7 @@
 <?php $this->start('contact')?>
 <div class="contact-form">
 	<h2>Neem contact met mij op.</h2>
-	<form action="" method="post">
+	<form action="<?php echo url('email.send')?>" method="post">
 		<input type="text" name="fullname" placeholder="Voor-Achternaam:">
 		<input type="email" name="email" placeholder="E-mail:">
 		<input type="text" name="subject" placeholder="Onderwerp:">
