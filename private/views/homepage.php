@@ -216,6 +216,9 @@
 		<input type="text" name="subject" placeholder="Onderwerp:">
 		<textarea name="message" placeholder="Bericht:" cols="30" rows="10"></textarea>
 		<br>
+		<?php if (isset($confirmation)):?>
+			<h3><?php echo $confirmation?></h3>
+		<?php endif ?>
 		<input type="submit" value="Verzenden">
 	</form>
 </div>
