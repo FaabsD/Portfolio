@@ -211,10 +211,10 @@
 <div class="contact-form" id="form">
 	<h2>Neem contact met mij op.</h2>
 	<form action="<?php echo url('email.send')?>" method="post">
-		<input type="text" name="fullname" value="" placeholder="Voor-Achternaam:">
-		<input type="email" name="email" value="" placeholder="E-mail:">
-		<input type="text" name="subject" value="" placeholder="Onderwerp:">
-		<textarea name="message" value="" placeholder="Bericht:" cols="30" rows="10"></textarea>
+		<input type="text" name="fullname" value="" placeholder="Voor-Achternaam:" required>
+		<input type="email" name="email" value="" placeholder="E-mail:" required>
+		<input type="text" name="subject" value="" placeholder="Onderwerp:" required>
+		<textarea name="message" value="" placeholder="Bericht:" cols="30" rows="10" required></textarea>
 		<br>
 		<input type="submit" value="Verzenden">
 	</form>
