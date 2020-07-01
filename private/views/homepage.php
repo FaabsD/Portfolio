@@ -208,7 +208,7 @@
 </div>
 <?php $this->stop()?>
 <?php $this->start('contact')?>
-<div class="contact-form">
+<div class="contact-form" id="form">
 	<h2>Neem contact met mij op.</h2>
 	<form action="<?php echo url('email.send')?>" method="post">
 		<input type="text" name="fullname" value="" placeholder="Voor-Achternaam:">
@@ -216,15 +216,14 @@
 		<input type="text" name="subject" value="" placeholder="Onderwerp:">
 		<textarea name="message" value="" placeholder="Bericht:" cols="30" rows="10"></textarea>
 		<br>
-		<?php if (isset($confirmation)):?>
-			<span class="bevestiging"><?php echo $confirmation?></span><br>
-		<?php endif ?>
 		<input type="submit" value="Verzenden">
 	</form>
 </div>
-
 <?php $this->stop()?>
 <?php $this->start('footer')?>
+	<?php if (isset($confirmation)):?>
+			<?php echo $confirmation?>
+		<?php endif ?>
 	<div class="socials">
 		<a href="https://www.linkedin.com/in/fabian-hendriks-7772601b1/" target="_blank"><i class="fab fa-linkedin"></i></a>
 		<a href="https://github.com/FaabsD" target="_blank"><i class="fab fa-github"></i></a>
