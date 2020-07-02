@@ -158,7 +158,7 @@
 <?php $this->stop(); ?>
 <?php $this->start('about')?>
 <div class="about">
-	<img src="https://via.placeholder.com/130" alt="">
+	<img src="<?php echo site_url('/images/profile.jpg')?>" alt="Foto van Fabian Hendriks">
 	<h2>Over mij:</h2>
 	<p>
 		<br>Mijn naam is Fabian Hendriks, ik ben 21 jaar en ik kom uit Zaandam.
