@@ -127,6 +127,6 @@ function createEmailMessage( $to, $subject, $from_name, $from_email ) {
 function contactMe($naam, $email, $onderwerp, $bericht, $ontvanger){
 	$mailer = getSwiftMailer();
 		$message = createEmailMessage($ontvanger, $onderwerp, $naam, 'webmaster@fd-hendriks.nl');
-		$message->setBody($bericht.'<br>email: '.$email, "text/html");
+		$message->setBody('U heeft een nieuw bericht van<br>'.$naam.'<br>'.'email: '.$email.'<br><br>'.$bericht, "text/html");
 		$mailer->send($message);
 }
