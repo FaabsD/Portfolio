@@ -62,11 +62,7 @@ body {
   border-bottom-width: 1.5px;
   border-left-width: 3px;
   border-style: solid;
-  border-color: #ffffff;
-  transition: color, 3s;
-}
-.intro-screen .head-text .head__links .head__link:hover {
-  color: rgba(255, 255, 255, 0.5);
+  transition: color, 1s;
 }
 
 .arrow-down {
@@ -82,6 +78,18 @@ body {
   bottom: 50px;
 }
 
+@media screen and (min-width: 1024px) {
+  .intro-screen .head-text .head__links {
+    margin-top: 1.5rem;
+    display: inline-block;
+  }
+  .intro-screen .head-text .head__links .head__link {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .intro-screen .head-text .head__links .head__link:hover {
+    color: #ffffff;
+  }
+}
 .projects-container {
   margin-top: 50px;
   padding-left: 25px;
