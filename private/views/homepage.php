@@ -6,6 +6,9 @@
 		<h1>Fabian D. Hendriks
 			<br>Opmaak en Webdevelopment
 		</h1>
+        <div class="head__links">
+            <a href="#projects" class="head__link">Bekijk mijn werk</a>
+        </div>
 	</div>
 	<a href="#projects" class="arrow-down"><i class="fas fa-chevron-down"></i></a>
 </div>
