@@ -21,26 +21,21 @@ body {
 @media screen and (min-width: 1024px) {
   main {
     max-width: 90vw;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 100px;
     margin-left: auto;
     margin-right: auto;
   }
 }
-
 .intro-screen {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/my-monitor.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/my-monitor.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/my-monitor.jpg");
   background-size: cover;
   background-position: center;
   width: 100vw;
   height: 100vh;
   margin-bottom: 50px;
 }
-
 .intro-screen .head-text {
   position: absolute;
   top: 25%;
@@ -49,6 +44,29 @@ body {
   text-align: center;
   color: #ffffff;
   text-shadow: 2px 2px 3px black;
+}
+.intro-screen .head-text .head__links {
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+.intro-screen .head-text .head__links .head__link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #ffffff;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-top-width: 3px;
+  border-right-width: 1.5px;
+  border-bottom-width: 1.5px;
+  border-left-width: 3px;
+  border-style: solid;
+  border-color: #ffffff;
+  transition: color, 3s;
+}
+.intro-screen .head-text .head__links .head__link:hover {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .arrow-down {
@@ -77,41 +95,32 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 .container-item h2 {
   font-size: 20px;
 }
-
 .container-item img {
   height: 236px;
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
-
 .container-item .HTML {
   color: #ff9000;
 }
-
 .container-item .CSS {
   color: #04c0e5;
 }
-
 .container-item .PHP {
   color: #6801b2;
 }
-
 .container-item .JS {
   color: #f05a28;
 }
-
 .container-item .HTML, .container-item .CSS, .container-item .PHP, .container-item .JS {
   font-weight: 600;
   text-decoration: underline;
 }
-
 .container-item .read {
-  margin: .5rem;
+  margin: 0.5rem;
   padding: 1rem;
   color: #ffffff;
   background-color: #000080;
@@ -119,15 +128,13 @@ body {
   border-radius: 25rem;
   text-decoration: underline;
 }
-
 .container-item .links .no-link {
   height: 35px;
   font-size: 1.7em;
-  margin-top: .25em;
-  margin-bottom: .25em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
   color: #a30303;
 }
-
 .container-item .links .no-link a {
   pointer-events: none;
   display: inline-block;
@@ -136,15 +143,13 @@ body {
   text-decoration: line-through;
   color: #a30303;
 }
-
 .container-item .links .link {
   height: 35px;
   font-size: 1.7em;
-  margin-top: .25em;
-  margin-bottom: .25em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
   color: #000080;
 }
-
 .container-item .links .link a {
   display: inline-block;
   margin-top: auto;
@@ -152,34 +157,28 @@ body {
   text-decoration: none;
   color: #000080;
 }
-
 .container-item .links .icon {
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
 
 @media screen and (min-width: 1024px) {
   .projects-container {
-    display: -ms-grid;
     display: grid;
     grid-column: 1/-1;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 100px;
     padding: unset;
   }
+
   .container-item {
-    -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
-            box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
-    display: -ms-grid;
+    box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
     display: grid;
-    -ms-grid-rows: 1fr auto auto auto;
-        grid-template-rows: 1fr auto auto auto;
+    grid-template-rows: 1fr auto auto auto;
     border-bottom: unset;
     margin: unset;
   }
   .container-item img {
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     width: 100%;
     height: 465px;
   }
@@ -195,10 +194,8 @@ body {
     cursor: pointer;
   }
   .container-item .links {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .container-item .links .no-link {
     padding: 0;
@@ -217,7 +214,6 @@ body {
     font-size: 1.2em;
   }
 }
-
 .about {
   margin-top: 50px;
   padding-left: 25px;
@@ -225,51 +221,42 @@ body {
   text-align: center;
   font-size: 1em;
 }
-
 .about img {
   width: 130px;
   height: 130px;
   border: 1px solid black;
   border-radius: 50%;
 }
-
 .about h2 {
   font-weight: 600;
   font-size: 1.4em;
   text-decoration: underline;
 }
-
 .about h3 {
   font-weight: 600;
   font-size: 1.2em;
   text-decoration: underline;
 }
-
 .about .marked {
   color: #000080;
   font-style: italic;
   text-decoration: underline;
 }
-
 .about .skills {
   margin-top: 25px;
 }
-
 .about .skills .skill {
   text-align: left;
   margin-top: 25px;
   margin-bottom: 25px;
 }
-
 .about .skills .skill .skillbar {
   border-radius: 25em;
   height: 20px;
   width: 100%;
   background-color: #DADADA;
-  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
 }
-
 .about .skills .skill .skillbar .progress {
   border-radius: 25em;
   height: 20px;
@@ -303,8 +290,7 @@ body {
     height: 20px;
     width: 70%;
     background-color: #DADADA;
-    -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
-            box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
   }
   .about .skills .skill .skillbar .progress {
     border-radius: 25em;
@@ -312,20 +298,17 @@ body {
     background-color: #000080;
   }
 }
-
 .contact-form {
   text-align: center;
   padding-left: 25px;
   padding-right: 25px;
   font-size: 1em;
 }
-
 .contact-form h2 {
   font-size: 20px;
 }
-
-.contact-form form input[type="text"],
-.contact-form form input[type="email"] {
+.contact-form form input[type=text],
+.contact-form form input[type=email] {
   font-size: 1.2em;
   color: #000000;
   margin-top: 6.5px;
@@ -337,11 +320,9 @@ body {
   border-radius: 25em;
   text-align: center;
 }
-
-.contact-form form input[name="subject"] {
+.contact-form form input[name=subject] {
   width: 75%;
 }
-
 .contact-form form textarea {
   font-size: 1.2em;
   margin-top: 6.5px;
@@ -353,8 +334,7 @@ body {
   border-radius: 25px;
   padding: 15px;
 }
-
-.contact-form form input[type="submit"] {
+.contact-form form input[type=submit] {
   margin-top: 6.5px;
   margin-bottom: 6.5px;
   background-color: #000080;
@@ -368,17 +348,17 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-  .contact-form form input[type="text"] {
+  .contact-form form input[type=text] {
     width: 95%;
     margin-top: 12.5px;
     margin-bottom: 12.5px;
   }
-  .contact-form form input[type="email"] {
+  .contact-form form input[type=email] {
     width: 75%;
     margin-top: 12.5px;
     margin-bottom: 12.5px;
   }
-  .contact-form form input[name="subject"] {
+  .contact-form form input[name=subject] {
     width: 60%;
   }
   .contact-form form textarea {
@@ -386,13 +366,10 @@ body {
     height: 300px;
   }
 }
-
 footer {
   margin-top: 1rem;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr auto auto;
-      grid-template-columns: 1fr auto auto;
+  grid-template-columns: 1fr auto auto;
   color: #fff;
   text-align: justify;
   padding: 1rem;
@@ -404,7 +381,7 @@ footer {
 }
 
 .socials a {
-  padding: .5rem;
+  padding: 0.5rem;
   color: #fff;
   font-size: 2rem;
 }
@@ -414,4 +391,5 @@ footer {
     color: #9a9a9a;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
