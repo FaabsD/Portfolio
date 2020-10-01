@@ -1,26 +1,51 @@
 .intro-screen
-    background: linear-gradient($header, $header), $background-image
-    background-size: cover
-    background-position: center
-    width: $full-view-width
-    height: $full-view-height
-    margin-bottom: $mobile-bottom
-    .head-text
-        position: absolute
-        top: 25%
-        bottom: auto
-        width: 100%
-        text-align: center
-        color: $arrow-down
-        text-shadow: 2px 2px 3px black
-.arrow-down
+  background: linear-gradient($header, $header), $background-image
+  background-size: cover
+  background-position: center
+  width: $full-view-width
+  height: $full-view-height
+  margin-bottom: $mobile-bottom
+
+  .head-text
     position: absolute
+    top: 25%
+    bottom: auto
+    width: 100%
     text-align: center
-    display: block
-    right: 50%
-    left: 50%
-    margin-left: -13.5px
-    margin-right: -13.5px
     color: $arrow-down
-    font-size: 31px
-    bottom: 50px
+    text-shadow: 2px 2px 3px black
+
+    .head__links
+      margin-top: 1.5rem
+      display: inline-block
+
+      .head__link
+        display: inline-block
+        margin-top: 1rem
+        color: $arrow-down
+        padding: 1rem
+        font-weight: 600
+        font-size: 1.2rem
+        text-decoration: none
+        border-top-width: 3px
+        border-right-width: 1.5px
+        border-bottom-width: 1.5px
+        border-left-width: 3px
+        border-style: solid
+        border-color: $arrow-down
+        transition: color, 3s
+        &:hover
+          color: $link-dimmed
+
+
+.arrow-down
+  position: absolute
+  text-align: center
+  display: block
+  right: 50%
+  left: 50%
+  margin-left: -13.5px
+  margin-right: -13.5px
+  color: $arrow-down
+  font-size: 31px
+  bottom: 50px
