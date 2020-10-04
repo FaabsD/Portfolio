@@ -16,148 +16,148 @@
 <?php $this->stop(); ?>
 <?php $this->start('projects'); ?>
 	<div id="projects" class="projects-container">
-		<div class="container-item" data-item="item1">
-			<img src="<?php echo site_url('/images/image-frame-1.png') ?>" alt="">
-			<h2>De Fruitmachine</h2>
-			<p>Deze opdracht was voor één van de Front-end lessen.
-				De opdracht was om een fruitmachine te maken waarbij er willekeurige afbeeldingen op een rij worden geladen
-				<span class="dots">...</span><br>
-				<span class="more">gebruikte programmertalen: <span class="HTML">HTML</span>, 
-				<span class="CSS">CSS</span> & <span class="JS">JavaScript</span></span>
-			</p>
-			<button onclick="readMoreLess('item1')" class="read">Lees meer</button>
-			<div class="links">
-				<div class="link">
-					<i class="fas fa-globe icon"></i><a href="http://19959.hosts1.ma-cloud.nl/bewijzenmap/periode1.2/fro/Fruit-machine/" target="_blank">Bekijk live versie</a>
-				</div>
-				<div class="link">
-					<i class="fab fa-github icon"></i><a href="https://github.com/FaabsD/Fruit-machine" target="_blank">Bekijk op GitHub</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="container-item" data-item="item2">
-			<img src="<?php echo site_url('/images/image-frame-mobile-1.png') ?>" alt="">
-			<h2>Opleidingspromo</h2>
-			<p>Dit was een Opdracht voor Projectmagement Waarbij ik een landingspage moest maken om mijn opleiding te promoten
-				<span class="dots">...</span><br>
-				<span class="more">
-					Wat heb ik hiervan geleerd?<br>
-					- Wat je zo al op een landingspage moet laten terug komen<br>
-					- een werkende email formulier maken<br>
-
-					Gebruikte talen: <span class="HTML">HTML</span>, <span class="CSS">CSS</span> & <span class="PHP">PHP</span>.
-
-						
-				</span>
-			</p>
-			<button onclick="readMoreLess('item2')" class="read">Lees meer</button>
-			<div class="links">
-				<div class="link">
-					<i class="fas fa-globe icon"></i><a href="http://19959.hosts1.ma-cloud.nl/bewijzenmap/periode1.2/proj/project_OP/" target="_blank">Bekijk live versie</a>
-				</div>
-				<div class="link">
-					<i class="fab fa-github icon"></i><a href="https://github.com/FaabsD/proj-project-op" target="_blank">Bekijk op GitHub</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="container-item" data-item="item3">
-			<img src="<?php echo site_url('/images/image-frame-mobile-2.png')?>" alt="">
-			<h2>The Wall</h2>
-			<p>
-				Een project waarbij je in teams van twee, een Instagram achtige website moest maken, 
-				je mocht bij dit project zelf bepalen voor welke doelgroep je dit ging maken
-				<span class="dots">...</span><br>
-				<span class="more">De vereisten voor dit project waren.<br>
-					De gebruiker moet zich kunnen registreren, kunnen inloggen en uitloggen. Gebruikers kunnen een afbeelding uploaden met een beschrijving.
-					Wat ik van dit project heb geleerd is dat een goede communicatie heel belangrijk is in een samenwerkings project.<br>
-					Dit project is gemaakt in: <span class="HTML">HTML</span>, <span class="CSS">CSS</span>, <span class="PHP">PHP</span> & <span class="JS">JavaScript</span>. 
-					Mijn bijdrage aan dit project bestaat uit het maken van: Het registratie script(PHP), het upload script(PHP), het tonen van posts vanuit een database(PHP), 
-					het uitloggen(PHP) en het schuivende menu (HTML, CSS) 
-				</span>
-			</p>
-			<button onclick="readMoreLess('item3')" class="read">Lees meer</button>
-			<div class="links">
-				<div class="no-link">
-					<i class="fas fa-globe icon"></i><a href="">Bekijk live versie</a>
-				</div>
-				<div class="link">
-					<i class="fab fa-github icon"></i><a href="https://github.com/FaabsD/proj-project-The-Wall" target="_blank">Bekijk op GitHub</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="container-item" data-item="item4">
-			<img src="<?php echo site_url('/images/image-frame-2.png')?>" alt="">
-			<h2>Covid-19 hulptool</h2>
-			<p>
-				Weer een project in samenwerkings verband. Dit keer moest je als team vanwege de Corona crisis een hulptool ontwikkelen.
-				<span class="dots">...</span><br>
-				<span class="more">
-					Voor dit project hadden wij als team de volledige vrijheid om iets te maken wat de mensen zou helpen in deze crisis.<br>
-					Wij kozen ervoor om een website te maken waarop mensen kunnen kijken wat de druktes in hun lokale winkels zijn. 
-					Men kan de winkel opzoeken en dan vervolgens aangeven hoe druk het is. Als hun winkel er niet tussen staat, 
-					dan kunnen ze een account aanmaken en inloggen om de ontbrekende winkel vervolgens zelf toe te voegen. 
-					Dit is ook het eerste project geweest waarin we hebben gewerkt in een MVC structuur<br>
-					Mijn taken in dit project bestonden uit: het maken van de zoekfunctie(PHP), 
-					Het maken en afhandelen van het registratie formulier(HTML, CSS, PHP), 
-					Het toevoegen van een winkel(PHP) en het aangeven van de drukte(PHP).<br>
-					Dit project is gemaakt in: <span class="HTML">HTML</span>, <span class="CSS">CSS</span> & <span class="PHP">PHP</span>
-				</span>
-			</p>
-			<button onclick="readMoreLess('item4')" class="read">Lees meer</button>
-			<div class="links">
-				<div class="link">
-					<i class="fas fa-globe icon"></i><a href="http://19959.hosts1.ma-cloud.nl/covid/public/" target="_blank">Bekijk live versie</a>
-				</div>
-				<div class="link">
-					<i class="fab fa-github icon"></i><a href="https://github.com/FaabsD/Covid" target="_blank">Bekijk op GitHub</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="container-item" data-item="item5">
-			<img src="<?php echo site_url('/images/image-frame-3.png')?>" alt="">
-			<h2>Bootstrap Oefening</h2>
-			<p>
-				Een eerste oefening om kennis te maken met Bootstrap
-				<span class="dots">...</span>
-				<span class="more">
-					Om kennis te maken met Bootstrap kregen wij deze opdracht waarin gebruik gemaakt moest worden van Bootstrap.<br>
-					Hierin is er gebruik gemaakt van: <span class="HTML">HTML</span>, <span class="CSS">(Bootstrap) CSS</span>
-					& <span class="JS">JavaScript(JQuery, Bootstrap.js)</span>
-				</span>
-			</p>
-			<button onclick="readMoreLess('item5')" class="read">Lees meer</button>
-			<div class="links">
-				<div class="link">
-					<i class="fas fa-globe icon"></i><a href="http://19959.hosts1.ma-cloud.nl/bewijzenmap/periode1.4/fro/LOTR/startDoc.html#" target="_blank">Bekijk live versie</a>
-				</div>
-				<div class="link">
-					<i class="fab fa-github icon"></i><a href="https://github.com/FaabsD/LOTR" target="_blank">Bekijk op GitHub</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="container-item" data-item="item6">
-			<img src="<?php echo site_url('/images/image-frame-mobile-3.png')?>" alt="">
-			<h2>Ruimte voor werk</h2>
-			<p>
-				Hier komt toekomstig werk.
-				<!-- <span class="dots">...</span> -->
-				<!-- <span class="more"></span> -->
-			</p>
-			<!-- <button onclick="readMoreLess('item6')" class="read">Lees meer</button> -->
-			<!-- <div class="links">
-				<div class="link">
-					<i class="fas fa-globe"></i><a href="" target="_blank">Bekijk live versie</a>
-				</div>
-				<div class="link">
-					<i class="fab fa-github"></i><a href="" target="_blank">Bekijk op GitHub</a>
-				</div>
-			</div> -->
-		</div>
+<!--		<div class="container-item" data-item="item1">-->
+<!--			<img src="--><?php //echo site_url('/images/image-frame-1.png') ?><!--" alt="">-->
+<!--			<h2>De Fruitmachine</h2>-->
+<!--			<p>Deze opdracht was voor één van de Front-end lessen.-->
+<!--				De opdracht was om een fruitmachine te maken waarbij er willekeurige afbeeldingen op een rij worden geladen-->
+<!--				<span class="dots">...</span><br>-->
+<!--				<span class="more">gebruikte programmertalen: <span class="HTML">HTML</span>, -->
+<!--				<span class="CSS">CSS</span> & <span class="JS">JavaScript</span></span>-->
+<!--			</p>-->
+<!--			<button onclick="readMoreLess('item1')" class="read">Lees meer</button>-->
+<!--			<div class="links">-->
+<!--				<div class="link">-->
+<!--					<i class="fas fa-globe icon"></i><a href="http://19959.hosts1.ma-cloud.nl/bewijzenmap/periode1.2/fro/Fruit-machine/" target="_blank">Bekijk live versie</a>-->
+<!--				</div>-->
+<!--				<div class="link">-->
+<!--					<i class="fab fa-github icon"></i><a href="https://github.com/FaabsD/Fruit-machine" target="_blank">Bekijk op GitHub</a>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!---->
+<!--		<div class="container-item" data-item="item2">-->
+<!--			<img src="--><?php //echo site_url('/images/image-frame-mobile-1.png') ?><!--" alt="">-->
+<!--			<h2>Opleidingspromo</h2>-->
+<!--			<p>Dit was een Opdracht voor Projectmagement Waarbij ik een landingspage moest maken om mijn opleiding te promoten-->
+<!--				<span class="dots">...</span><br>-->
+<!--				<span class="more">-->
+<!--					Wat heb ik hiervan geleerd?<br>-->
+<!--					- Wat je zo al op een landingspage moet laten terug komen<br>-->
+<!--					- een werkende email formulier maken<br>-->
+<!---->
+<!--					Gebruikte talen: <span class="HTML">HTML</span>, <span class="CSS">CSS</span> & <span class="PHP">PHP</span>.-->
+<!---->
+<!--						-->
+<!--				</span>-->
+<!--			</p>-->
+<!--			<button onclick="readMoreLess('item2')" class="read">Lees meer</button>-->
+<!--			<div class="links">-->
+<!--				<div class="link">-->
+<!--					<i class="fas fa-globe icon"></i><a href="http://19959.hosts1.ma-cloud.nl/bewijzenmap/periode1.2/proj/project_OP/" target="_blank">Bekijk live versie</a>-->
+<!--				</div>-->
+<!--				<div class="link">-->
+<!--					<i class="fab fa-github icon"></i><a href="https://github.com/FaabsD/proj-project-op" target="_blank">Bekijk op GitHub</a>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!---->
+<!--		<div class="container-item" data-item="item3">-->
+<!--			<img src="--><?php //echo site_url('/images/image-frame-mobile-2.png')?><!--" alt="">-->
+<!--			<h2>The Wall</h2>-->
+<!--			<p>-->
+<!--				Een project waarbij je in teams van twee, een Instagram achtige website moest maken, -->
+<!--				je mocht bij dit project zelf bepalen voor welke doelgroep je dit ging maken-->
+<!--				<span class="dots">...</span><br>-->
+<!--				<span class="more">De vereisten voor dit project waren.<br>-->
+<!--					De gebruiker moet zich kunnen registreren, kunnen inloggen en uitloggen. Gebruikers kunnen een afbeelding uploaden met een beschrijving.-->
+<!--					Wat ik van dit project heb geleerd is dat een goede communicatie heel belangrijk is in een samenwerkings project.<br>-->
+<!--					Dit project is gemaakt in: <span class="HTML">HTML</span>, <span class="CSS">CSS</span>, <span class="PHP">PHP</span> & <span class="JS">JavaScript</span>. -->
+<!--					Mijn bijdrage aan dit project bestaat uit het maken van: Het registratie script(PHP), het upload script(PHP), het tonen van posts vanuit een database(PHP), -->
+<!--					het uitloggen(PHP) en het schuivende menu (HTML, CSS) -->
+<!--				</span>-->
+<!--			</p>-->
+<!--			<button onclick="readMoreLess('item3')" class="read">Lees meer</button>-->
+<!--			<div class="links">-->
+<!--				<div class="no-link">-->
+<!--					<i class="fas fa-globe icon"></i><a href="">Bekijk live versie</a>-->
+<!--				</div>-->
+<!--				<div class="link">-->
+<!--					<i class="fab fa-github icon"></i><a href="https://github.com/FaabsD/proj-project-The-Wall" target="_blank">Bekijk op GitHub</a>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--		-->
+<!--		<div class="container-item" data-item="item4">-->
+<!--			<img src="--><?php //echo site_url('/images/image-frame-2.png')?><!--" alt="">-->
+<!--			<h2>Covid-19 hulptool</h2>-->
+<!--			<p>-->
+<!--				Weer een project in samenwerkings verband. Dit keer moest je als team vanwege de Corona crisis een hulptool ontwikkelen.-->
+<!--				<span class="dots">...</span><br>-->
+<!--				<span class="more">-->
+<!--					Voor dit project hadden wij als team de volledige vrijheid om iets te maken wat de mensen zou helpen in deze crisis.<br>-->
+<!--					Wij kozen ervoor om een website te maken waarop mensen kunnen kijken wat de druktes in hun lokale winkels zijn. -->
+<!--					Men kan de winkel opzoeken en dan vervolgens aangeven hoe druk het is. Als hun winkel er niet tussen staat, -->
+<!--					dan kunnen ze een account aanmaken en inloggen om de ontbrekende winkel vervolgens zelf toe te voegen. -->
+<!--					Dit is ook het eerste project geweest waarin we hebben gewerkt in een MVC structuur<br>-->
+<!--					Mijn taken in dit project bestonden uit: het maken van de zoekfunctie(PHP), -->
+<!--					Het maken en afhandelen van het registratie formulier(HTML, CSS, PHP), -->
+<!--					Het toevoegen van een winkel(PHP) en het aangeven van de drukte(PHP).<br>-->
+<!--					Dit project is gemaakt in: <span class="HTML">HTML</span>, <span class="CSS">CSS</span> & <span class="PHP">PHP</span>-->
+<!--				</span>-->
+<!--			</p>-->
+<!--			<button onclick="readMoreLess('item4')" class="read">Lees meer</button>-->
+<!--			<div class="links">-->
+<!--				<div class="link">-->
+<!--					<i class="fas fa-globe icon"></i><a href="http://19959.hosts1.ma-cloud.nl/covid/public/" target="_blank">Bekijk live versie</a>-->
+<!--				</div>-->
+<!--				<div class="link">-->
+<!--					<i class="fab fa-github icon"></i><a href="https://github.com/FaabsD/Covid" target="_blank">Bekijk op GitHub</a>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!---->
+<!--		<div class="container-item" data-item="item5">-->
+<!--			<img src="--><?php //echo site_url('/images/image-frame-3.png')?><!--" alt="">-->
+<!--			<h2>Bootstrap Oefening</h2>-->
+<!--			<p>-->
+<!--				Een eerste oefening om kennis te maken met Bootstrap-->
+<!--				<span class="dots">...</span>-->
+<!--				<span class="more">-->
+<!--					Om kennis te maken met Bootstrap kregen wij deze opdracht waarin gebruik gemaakt moest worden van Bootstrap.<br>-->
+<!--					Hierin is er gebruik gemaakt van: <span class="HTML">HTML</span>, <span class="CSS">(Bootstrap) CSS</span>-->
+<!--					& <span class="JS">JavaScript(JQuery, Bootstrap.js)</span>-->
+<!--				</span>-->
+<!--			</p>-->
+<!--			<button onclick="readMoreLess('item5')" class="read">Lees meer</button>-->
+<!--			<div class="links">-->
+<!--				<div class="link">-->
+<!--					<i class="fas fa-globe icon"></i><a href="http://19959.hosts1.ma-cloud.nl/bewijzenmap/periode1.4/fro/LOTR/startDoc.html#" target="_blank">Bekijk live versie</a>-->
+<!--				</div>-->
+<!--				<div class="link">-->
+<!--					<i class="fab fa-github icon"></i><a href="https://github.com/FaabsD/LOTR" target="_blank">Bekijk op GitHub</a>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!---->
+<!--		<div class="container-item" data-item="item6">-->
+<!--			<img src="--><?php //echo site_url('/images/image-frame-mobile-3.png')?><!--" alt="">-->
+<!--			<h2>Ruimte voor werk</h2>-->
+<!--			<p>-->
+<!--				Hier komt toekomstig werk.-->
+<!--				<!-- <span class="dots">...</span> -->-->
+<!--				<!-- <span class="more"></span> -->-->
+<!--			</p>-->
+<!--			<!-- <button onclick="readMoreLess('item6')" class="read">Lees meer</button> -->-->
+<!--			<!-- <div class="links">-->
+<!--				<div class="link">-->
+<!--					<i class="fas fa-globe"></i><a href="" target="_blank">Bekijk live versie</a>-->
+<!--				</div>-->
+<!--				<div class="link">-->
+<!--					<i class="fab fa-github"></i><a href="" target="_blank">Bekijk op GitHub</a>-->
+<!--				</div>-->
+<!--			</div> -->-->
+<!--		</div>-->
 	</div>
 <?php $this->stop(); ?>
 <?php $this->start('about')?>
@@ -169,16 +169,16 @@
 		Naast het coderen ben ik ook graag bezig met opmaak en het bewerken van foto's.
 		Ik ben een student aan de opleiding Media development aan het Mediacollege Amsterdam.
 		Hiervoor heb ik ook al de opleiding Allround DTP-er gevolgd tevens bij Mediacollege Amsterdam,
-		hierdoor weet ik ook al het één en ander van opmaak. 
+		hierdoor weet ik ook al het één en ander van opmaak.
 		Gedurende deze opleiding kwam ik in contact met HTML en CSS waardoor ik ook interesse kreeg in web development wardoor ik dacht "hey dit zou ik best met elkaar kunnen combineren."
 		En zo ben ik op deze opleiding terecht gekomen.<br><br>
 	</p>
 	<h3>Vaardigheden:</h3>
 	<p>
-		Ik heb ervaring met de talen: <span class="marked">HTML</span>, <span class="marked">CSS</span>, 
+		Ik heb ervaring met de talen: <span class="marked">HTML</span>, <span class="marked">CSS</span>,
 		<span class="marked">JavaScript</span> & <span class="marked">PHP</span>.<br>
-		Ik heb ook veel ervaring met: <span class="marked">Adobe Photoshop</span>, 
-		<span class="marked">Illustrator</span>, <span class="marked">Indesign</span> 
+		Ik heb ook veel ervaring met: <span class="marked">Adobe Photoshop</span>,
+		<span class="marked">Illustrator</span>, <span class="marked">Indesign</span>
 		& <span class="marked">XD</span>.
 	</p>
 	<div class="skills">
