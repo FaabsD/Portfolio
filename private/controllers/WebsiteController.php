@@ -13,9 +13,9 @@ namespace Website\Controllers;
 class WebsiteController {
 
 	public function home() {
-
+        $projects = getProjects();
 		$template_engine = get_template_engine();
-		echo $template_engine->render('homepage');
+		echo $template_engine->render('homepage', ['projects' => $projects]);
 
 	}
 

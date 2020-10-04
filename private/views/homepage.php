@@ -16,52 +16,29 @@
 <?php $this->stop(); ?>
 <?php $this->start('projects'); ?>
 	<div id="projects" class="projects-container">
-<!--		<div class="container-item" data-item="item1">-->
-<!--			<img src="--><?php //echo site_url('/images/image-frame-1.png') ?><!--" alt="">-->
-<!--			<h2>De Fruitmachine</h2>-->
-<!--			<p>Deze opdracht was voor één van de Front-end lessen.-->
-<!--				De opdracht was om een fruitmachine te maken waarbij er willekeurige afbeeldingen op een rij worden geladen-->
-<!--				<span class="dots">...</span><br>-->
-<!--				<span class="more">gebruikte programmertalen: <span class="HTML">HTML</span>, -->
-<!--				<span class="CSS">CSS</span> & <span class="JS">JavaScript</span></span>-->
-<!--			</p>-->
-<!--			<button onclick="readMoreLess('item1')" class="read">Lees meer</button>-->
-<!--			<div class="links">-->
-<!--				<div class="link">-->
-<!--					<i class="fas fa-globe icon"></i><a href="http://19959.hosts1.ma-cloud.nl/bewijzenmap/periode1.2/fro/Fruit-machine/" target="_blank">Bekijk live versie</a>-->
-<!--				</div>-->
-<!--				<div class="link">-->
-<!--					<i class="fab fa-github icon"></i><a href="https://github.com/FaabsD/Fruit-machine" target="_blank">Bekijk op GitHub</a>-->
-<!--				</div>-->
-<!--			</div>-->
-<!--		</div>-->
-<!---->
-<!--		<div class="container-item" data-item="item2">-->
-<!--			<img src="--><?php //echo site_url('/images/image-frame-mobile-1.png') ?><!--" alt="">-->
-<!--			<h2>Opleidingspromo</h2>-->
-<!--			<p>Dit was een Opdracht voor Projectmagement Waarbij ik een landingspage moest maken om mijn opleiding te promoten-->
-<!--				<span class="dots">...</span><br>-->
-<!--				<span class="more">-->
-<!--					Wat heb ik hiervan geleerd?<br>-->
-<!--					- Wat je zo al op een landingspage moet laten terug komen<br>-->
-<!--					- een werkende email formulier maken<br>-->
-<!---->
-<!--					Gebruikte talen: <span class="HTML">HTML</span>, <span class="CSS">CSS</span> & <span class="PHP">PHP</span>.-->
-<!---->
-<!--						-->
-<!--				</span>-->
-<!--			</p>-->
-<!--			<button onclick="readMoreLess('item2')" class="read">Lees meer</button>-->
-<!--			<div class="links">-->
-<!--				<div class="link">-->
-<!--					<i class="fas fa-globe icon"></i><a href="http://19959.hosts1.ma-cloud.nl/bewijzenmap/periode1.2/proj/project_OP/" target="_blank">Bekijk live versie</a>-->
-<!--				</div>-->
-<!--				<div class="link">-->
-<!--					<i class="fab fa-github icon"></i><a href="https://github.com/FaabsD/proj-project-op" target="_blank">Bekijk op GitHub</a>-->
-<!--				</div>-->
-<!--			</div>-->
-<!--		</div>-->
-<!---->
+        <?php foreach ($projects as $project): ?>
+            <div class="container-item">
+                <img src="<?php echo site_url('/images/'.$project['image'])?>" alt="">
+                <h2><?php echo $project['project_name']?></h2>
+                <p>
+                    <?php echo $project['description_short']?>
+                    <span class="dots">...</span>
+                </p>
+                <button class="read">Bekijk project</button>
+                <div class="links">
+                    <?php if (!empty($project['live_link'])):?>
+                        <div class="link">
+                            <i class="fas fa-globe icon"></i><a href="<?php echo $project['live_link']?>" target="_blank">Bekijk live versie</a>
+                        </div>
+                    <?php endif ?>
+                    <div class="link">
+                        <i class="fab fa-github icon"></i><a href="<?php echo $project['github_link']?>" target="_blank">Bekijk op GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+        <?php endforeach ?>
+<!--
 <!--		<div class="container-item" data-item="item3">-->
 <!--			<img src="--><?php //echo site_url('/images/image-frame-mobile-2.png')?><!--" alt="">-->
 <!--			<h2>The Wall</h2>-->
