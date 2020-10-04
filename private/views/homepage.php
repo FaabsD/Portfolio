@@ -8,6 +8,7 @@
 		</h1>
         <div class="head__links">
             <a href="#projects" class="head__link">Bekijk mijn werk</a>
+            <a href="#contact" class="head__link">Neem contact op</a>
         </div>
 	</div>
 	<a href="#projects" class="arrow-down"><i class="fas fa-chevron-down"></i></a>
@@ -211,7 +212,7 @@
 </div>
 <?php $this->stop()?>
 <?php $this->start('contact')?>
-<div class="contact-form" id="form">
+<div id="contact" class="contact-form" id="form">
 	<h2>Neem contact met mij op.</h2>
 	<form action="<?php echo url('email.send')?>" method="post">
 		<input type="text" name="fullname" value="" placeholder="Voor-Achternaam:" required>
