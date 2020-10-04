@@ -29,7 +29,7 @@ body {
   }
 }
 .intro-screen {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/my-monitor.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/my-monitor.jpg");
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -82,9 +82,11 @@ body {
   .intro-screen .head-text .head__links {
     margin-top: 1.5rem;
     display: inline-block;
+    max-width: 25%;
   }
   .intro-screen .head-text .head__links .head__link {
     color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
   }
   .intro-screen .head-text .head__links .head__link:hover {
     color: #ffffff;
