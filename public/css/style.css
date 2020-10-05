@@ -138,21 +138,6 @@ body {
   border-radius: 25rem;
   text-decoration: underline;
 }
-.container-item .links .no-link {
-  height: 35px;
-  font-size: 1.7em;
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
-  color: #a30303;
-}
-.container-item .links .no-link a {
-  pointer-events: none;
-  display: inline-block;
-  margin-top: auto;
-  margin-bottom: auto;
-  text-decoration: line-through;
-  color: #a30303;
-}
 .container-item .links .link {
   height: 35px;
   font-size: 1.7em;
@@ -173,15 +158,17 @@ body {
 
 @media screen and (min-width: 1024px) {
   .projects-container {
+    width: 90%;
     display: grid;
     grid-column: 1/-1;
     grid-template-columns: 1fr 1fr;
     grid-gap: 100px;
     padding: unset;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .container-item {
-    box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
     display: grid;
     grid-template-rows: 1fr auto auto auto;
     border-bottom: unset;
