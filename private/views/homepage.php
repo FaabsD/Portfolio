@@ -24,7 +24,7 @@
                     <?php echo $project['description_short']?>
                     <span class="dots">...</span>
                 </p>
-                <button class="read">Bekijk project</button>
+                <a href="<?php echo url('project', ['id' => $project['project_id']])?>"><button class="read">Bekijk project</button></a>
                 <div class="links">
                     <?php if (!empty($project['live_link'])):?>
                         <div class="link">
