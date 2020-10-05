@@ -1,4 +1,15 @@
 <?php $this->layout('website'); ?>
+<?php $this->start('header');?>
+<div class="project-nav">
+    <?php foreach ($project as $project_data):?>
+    <?php if($project_data['project_id'] >= 2):?>
+        <a href="<?php echo url('project', ['id'=>$project_data['project_id']-1])?>"><button class="project-nav__prev">Vorige</button></a>
+    <?php endif?>
+    <a href="<?php echo url('home')?>"><button class="project-nav__home">Home</button></a>
+    <a href="<?php echo url('project', ['id' =>$project_data['project_id']+1])?>"><button class="project-nav__next">Volgende</button></a>
+    <?php endforeach ?>
+</div>
+<?php $this->stop();?>
 <?php $this->start('projects');?>
     <div class="container">
         <?php foreach ($project as $project_data):?>
