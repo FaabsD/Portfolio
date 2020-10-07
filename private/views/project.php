@@ -16,13 +16,15 @@
     <div class="container">
         <?php foreach ($project as $project_data):?>
             <img src="<?php echo site_url('/images/'.$project_data['image'])?>" alt="Project Voorbeeld" class="container__image">
-            <h1 class="container__head"><?php echo $project_data['project_name']?></h1>
-            <h2 class="container__subhead">inleiding</h2>
-            <p class="container__introduction">
-                <?php echo $project_data['description_short']?>
-            </p>
-            <h2 class="container_subhead">Beschrijving</h2>
-            <p class="container_description"><?php echo $project_data['description_long']?></p>
+            <div class="cointainer__text">
+                <h1 class="container__text__head"><?php echo $project_data['project_name']?></h1>
+                <h2 class="container__text__subhead">inleiding</h2>
+                <p class="container__text__introduction">
+                    <?php echo $project_data['description_short']?>
+                </p>
+                <h2 class="container__text__subhead">Beschrijving</h2>
+                <p class="container__text__description"><?php echo $project_data['description_long']?></p>
+            </div>
         <?php endforeach ?>
     </div>
 <?php $this->stop();?>
