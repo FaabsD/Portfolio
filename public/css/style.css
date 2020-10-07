@@ -28,6 +28,7 @@ body {
     margin-right: auto;
   }
 }
+/* pas de stijl van het introductie scherm aan */
 .intro-screen {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/my-monitor.jpg");
   background-size: cover;
@@ -37,6 +38,7 @@ body {
   margin-bottom: 50px;
 }
 .intro-screen .head-text {
+  /* Pas de stijl voor de tekst in het introscherm aan */
   position: absolute;
   top: 25%;
   bottom: auto;
@@ -46,10 +48,12 @@ body {
   text-shadow: 2px 2px 3px black;
 }
 .intro-screen .head-text .head__links {
+  /* Pas de stijl van de links container in het introscherm aan */
   margin-top: 1.5rem;
   display: inline-block;
 }
 .intro-screen .head-text .head__links .head__link {
+  /* Pas de stijl van de links in het introscherm aan */
   display: inline-block;
   margin-top: 1rem;
   color: #ffffff;
@@ -66,6 +70,7 @@ body {
 }
 
 .arrow-down {
+  /* Pas de stijl van het pijltje in het introscherm aan */
   position: absolute;
   text-align: center;
   display: block;
@@ -79,6 +84,7 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  /* Pas de stijlen voor het introscherm aan voor PC weergave */
   .intro-screen .head-text .head__links {
     margin-top: 1.5rem;
     display: inline-block;

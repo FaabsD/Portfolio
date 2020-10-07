@@ -1,3 +1,5 @@
+
+/* pas de stijl van het introductie scherm aan */
 .intro-screen
   background: linear-gradient($header, $header), $background-image
   background-size: cover
@@ -7,6 +9,7 @@
   margin-bottom: $mobile-bottom
 
   .head-text
+    /* Pas de stijl voor de tekst in het introscherm aan */
     position: absolute
     top: 25%
     bottom: auto
@@ -16,10 +19,12 @@
     text-shadow: 2px 2px 3px black
 
     .head__links
+      /* Pas de stijl van de links container in het introscherm aan */
       margin-top: 1.5rem
       display: inline-block
 
       .head__link
+        /* Pas de stijl van de links in het introscherm aan */
         display: inline-block
         margin-top: 1rem
         color: $arrow-down
@@ -36,6 +41,7 @@
 
 
 .arrow-down
+  /* Pas de stijl van het pijltje in het introscherm aan */
   position: absolute
   text-align: center
   display: block
@@ -48,6 +54,7 @@
   bottom: 50px
 
 @media screen and (min-width: $tablet-desktop)
+  /* Pas de stijlen voor het introscherm aan voor PC weergave */
   .intro-screen
 
     .head-text
