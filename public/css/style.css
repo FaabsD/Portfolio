@@ -233,6 +233,43 @@ body {
     font-size: 1.2em;
   }
 }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95vw;
+  text-align: center;
+}
+.container .container__image {
+  width: 100%;
+}
+.container .cointainer__text .container__text__head {
+  color: #000080;
+  font-size: 1.5rem;
+}
+.container .cointainer__text .container__text__subhead {
+  color: #000080;
+  font-size: 1.2rem;
+}
+.container .cointainer__text .container__text__introduction {
+  font-size: 1rem;
+}
+.container .cointainer__text .container__text__description .HTML {
+  color: #ff9000;
+  text-decoration: underline;
+}
+.container .cointainer__text .container__text__description .CSS {
+  color: #04c0e5;
+  text-decoration: underline;
+}
+.container .cointainer__text .container__text__description .JS {
+  color: #f05a28;
+  text-decoration: underline;
+}
+.container .cointainer__text .container__text__description .PHP {
+  color: #6801b2;
+  text-decoration: underline;
+}
+
 .about {
   margin-top: 50px;
   padding-left: 25px;
