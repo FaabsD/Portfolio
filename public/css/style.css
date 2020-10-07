@@ -83,6 +83,22 @@ body {
   bottom: 50px;
 }
 
+.project-nav {
+  /* Pas de stijl voor de knoppen bovenin de projectpagina aan */
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.project-nav .project-nav__prev, .project-nav .project-nav__home, .project-nav .project-nav__next {
+  background-color: #000080;
+  color: #ffffff;
+  padding: 1rem;
+  border-style: none;
+}
+.project-nav .project-nav__home {
+  width: 25vw;
+}
+
 @media screen and (min-width: 1024px) {
   /* Pas de stijlen voor het introscherm aan voor PC weergave */
   .intro-screen .head-text .head__links {

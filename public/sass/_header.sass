@@ -1,4 +1,3 @@
-
 /* pas de stijl van het introductie scherm aan */
 .intro-screen
   background: linear-gradient($header, $header), $background-image
@@ -52,6 +51,19 @@
   color: $arrow-down
   font-size: 31px
   bottom: 50px
+
+.project-nav
+  /* Pas de stijl voor de knoppen bovenin de projectpagina aan */
+  width: 100vw
+  display: flex
+  justify-content: space-between
+  .project-nav__prev, .project-nav__home, .project-nav__next
+    background-color: $main
+    color: $arrow-down
+    padding: 1rem
+    border-style: none
+  .project-nav__home
+    width: 25vw
 
 @media screen and (min-width: $tablet-desktop)
   /* Pas de stijlen voor het introscherm aan voor PC weergave */
