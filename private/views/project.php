@@ -6,7 +6,9 @@
         <a href="<?php echo url('project', ['id'=>$project_data['project_id']-1])?>"><button class="project-nav__prev">Vorige</button></a>
     <?php endif?>
     <a href="<?php echo url('home')?>"><button class="project-nav__home">Home</button></a>
-    <a href="<?php echo url('project', ['id' =>$project_data['project_id']+1])?>"><button class="project-nav__next">Volgende</button></a>
+    <?php if ($project_data['project_id'] < count($project_data)): ?>
+        <a href="<?php echo url('project', ['id' =>$project_data['project_id']+1])?>"><button class="project-nav__next">Volgende</button></a>
+    <?php endif ?>
     <?php endforeach ?>
 </div>
 <?php $this->stop();?>
