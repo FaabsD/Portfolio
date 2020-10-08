@@ -5,15 +5,27 @@
   text-align: center
   .container__image
     width: 100%
-  .cointainer__text
+  .container__text
     .container__text__head
       color: $main
-      font-size: 1.5rem
+      font-size: 2rem
     .container__text__subhead
       color: $main
-      font-size: 1.2rem
+      font-size: 1.5rem
     .container__text__introduction
       font-size: 1rem
+      .HTML
+        color: $HTML
+        text-decoration: underline
+      .CSS
+        color: $CSS
+        text-decoration: underline
+      .JS
+        color: $JS
+        text-decoration: underline
+      .PHP
+        color: $PHP
+        text-decoration: underline
     .container__text__description
       .HTML
         color: $HTML
@@ -27,3 +39,21 @@
       .PHP
         color: $PHP
         text-decoration: underline
+
+@media screen and (min-width: $tablet-desktop)
+  .container
+    width: 90vw
+    height: 100vh
+    margin-left: auto
+    margin-right: auto
+    display: grid
+    grid-template-areas: "image ." "image text"  "image ."
+    .container__image
+      object-fit: contain
+      grid-area: image
+      width: available
+      height: 100%
+    .container__text
+      word-break: break-word
+      text-align: left
+      grid-area: text
