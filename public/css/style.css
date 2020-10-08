@@ -90,13 +90,11 @@ body {
   justify-content: space-between;
 }
 .project-nav .project-nav__prev, .project-nav .project-nav__home, .project-nav .project-nav__next {
+  width: 32vw;
   background-color: #000080;
   color: #ffffff;
   padding: 1rem;
   border-style: none;
-}
-.project-nav .project-nav__home {
-  width: 25vw;
 }
 
 @media screen and (min-width: 1024px) {
@@ -242,34 +240,71 @@ body {
 .container .container__image {
   width: 100%;
 }
-.container .cointainer__text .container__text__head {
+.container .container__text .container__text__head {
+  color: #000080;
+  font-size: 2rem;
+}
+.container .container__text .container__text__subhead {
   color: #000080;
   font-size: 1.5rem;
 }
-.container .cointainer__text .container__text__subhead {
-  color: #000080;
-  font-size: 1.2rem;
-}
-.container .cointainer__text .container__text__introduction {
+.container .container__text .container__text__introduction {
   font-size: 1rem;
 }
-.container .cointainer__text .container__text__description .HTML {
+.container .container__text .container__text__introduction .HTML {
   color: #ff9000;
   text-decoration: underline;
 }
-.container .cointainer__text .container__text__description .CSS {
+.container .container__text .container__text__introduction .CSS {
   color: #04c0e5;
   text-decoration: underline;
 }
-.container .cointainer__text .container__text__description .JS {
+.container .container__text .container__text__introduction .JS {
   color: #f05a28;
   text-decoration: underline;
 }
-.container .cointainer__text .container__text__description .PHP {
+.container .container__text .container__text__introduction .PHP {
+  color: #6801b2;
+  text-decoration: underline;
+}
+.container .container__text .container__text__description .HTML {
+  color: #ff9000;
+  text-decoration: underline;
+}
+.container .container__text .container__text__description .CSS {
+  color: #04c0e5;
+  text-decoration: underline;
+}
+.container .container__text .container__text__description .JS {
+  color: #f05a28;
+  text-decoration: underline;
+}
+.container .container__text .container__text__description .PHP {
   color: #6801b2;
   text-decoration: underline;
 }
 
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 90vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-areas: "image ." "image text" "image .";
+  }
+  .container .container__image {
+    object-fit: contain;
+    grid-area: image;
+    width: available;
+    height: 100%;
+  }
+  .container .container__text {
+    word-break: break-word;
+    text-align: left;
+    grid-area: text;
+  }
+}
 .about {
   margin-top: 50px;
   padding-left: 25px;
