@@ -16,7 +16,7 @@
     <div class="container">
         <?php foreach ($project as $project_data):?>
             <img src="<?php echo site_url('/images/'.$project_data['image'])?>" alt="Project Voorbeeld" class="container__image">
-            <div class="cointainer__text">
+            <div class="container__text">
                 <h1 class="container__text__head"><?php echo $project_data['project_name']?></h1>
                 <h2 class="container__text__subhead">inleiding</h2>
                 <p class="container__text__introduction">
