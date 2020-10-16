@@ -1,4 +1,6 @@
 .contact-form
+    background-color: rgba(255, 255, 255, 0.7)
+    padding: 1rem
     text-align: center
     padding-left: 25px
     padding-right: 25px
@@ -18,8 +20,10 @@
             border: none
             border-radius: 25em
             text-align: center
+            box-shadow: 0 0 6px 0 black
         input[name="subject"]
             width: 75%
+            box-shadow: 0 0 6px 0 black
         textarea
             font-size: 1.2em
             margin-top: 6.5px
@@ -30,6 +34,7 @@
             border: none
             border-radius: 25px
             padding: 15px
+            box-shadow: 0 0 6px 0 black
         input[type="submit"]
             margin-top: 6.5px
             margin-bottom: 6.5px
@@ -43,6 +48,7 @@
             font-weight: 900
 @media screen and ( min-width: $tablet-desktop )
     .contact-form
+        box-shadow: $black-box
         form
             input[type="text"]
                 width: 95%
@@ -55,5 +61,5 @@
             input[name="subject"]
                 width: 60%
             textarea
-                width: 100%
+                width: 95%
                 height: 300px
