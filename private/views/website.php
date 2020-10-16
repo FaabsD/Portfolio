@@ -39,6 +39,7 @@
     <footer>
         <?php echo $this->section('footer')?>
     </footer>
+    <img src="<?php echo site_url('/images/background.jpg')?>" alt="" class="bg-img">
 </body>
 
 </html>
