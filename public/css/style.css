@@ -229,6 +229,8 @@ body {
   }
 }
 .container {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0.5rem;
   margin-left: auto;
   margin-right: auto;
   width: 95vw;
@@ -248,41 +250,58 @@ body {
 .container .container__text .container__text__introduction {
   font-size: 1rem;
 }
+.container .container__text .container__text__introduction .HTML, .container .container__text .container__text__introduction .CSS, .container .container__text .container__text__introduction .JS, .container .container__text .container__text__introduction .PHP {
+  padding: 0.1rem;
+  font-weight: bold;
+}
 .container .container__text .container__text__introduction .HTML {
-  color: #ff9000;
+  background-color: #ff9000;
+  color: white;
   text-decoration: underline;
 }
 .container .container__text .container__text__introduction .CSS {
-  color: #04c0e5;
+  background-color: #04c0e5;
+  color: white;
   text-decoration: underline;
 }
 .container .container__text .container__text__introduction .JS {
-  color: #f05a28;
+  color: white;
+  background-color: #f05a28;
   text-decoration: underline;
 }
 .container .container__text .container__text__introduction .PHP {
-  color: #6801b2;
+  color: white;
+  background-color: #6801b2;
   text-decoration: underline;
 }
+.container .container__text .container__text__description .HTML, .container .container__text .container__text__description .CSS, .container .container__text .container__text__description .JS, .container .container__text .container__text__description .PHP {
+  padding: 0.1rem;
+  font-weight: bold;
+}
 .container .container__text .container__text__description .HTML {
-  color: #ff9000;
+  color: white;
+  background-color: #ff9000;
   text-decoration: underline;
 }
 .container .container__text .container__text__description .CSS {
-  color: #04c0e5;
+  color: white;
+  background-color: #04c0e5;
   text-decoration: underline;
 }
 .container .container__text .container__text__description .JS {
-  color: #f05a28;
+  color: white;
+  background-color: #f05a28;
   text-decoration: underline;
 }
 .container .container__text .container__text__description .PHP {
-  color: #6801b2;
+  color: white;
+  background-color: #6801b2;
   text-decoration: underline;
 }
 
 @media screen and (min-width: 1024px) {
   .container {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.7);
     width: 90vw;
     height: 100vh;
     margin-left: auto;
