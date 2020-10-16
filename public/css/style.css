@@ -303,8 +303,11 @@ body {
   }
 }
 .about {
+  background-color: rgba(255, 255, 255, 0.7);
   margin-top: 50px;
+  padding-top: 1rem;
   padding-left: 25px;
+  padding-bottom: 1rem;
   padding-right: 25px;
   text-align: center;
   font-size: 1em;
@@ -353,7 +356,8 @@ body {
 
 @media screen and (min-width: 1024px) {
   .about {
-    padding: unset;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.7);
+    padding: 1.5rem;
     margin-top: unset;
   }
   .about img {
@@ -387,6 +391,8 @@ body {
   }
 }
 .contact-form {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1rem;
   text-align: center;
   padding-left: 25px;
   padding-right: 25px;
@@ -407,9 +413,11 @@ body {
   border: none;
   border-radius: 25em;
   text-align: center;
+  box-shadow: 0 0 6px 0 black;
 }
 .contact-form form input[name=subject] {
   width: 75%;
+  box-shadow: 0 0 6px 0 black;
 }
 .contact-form form textarea {
   font-size: 1.2em;
@@ -421,6 +429,7 @@ body {
   border: none;
   border-radius: 25px;
   padding: 15px;
+  box-shadow: 0 0 6px 0 black;
 }
 .contact-form form input[type=submit] {
   margin-top: 6.5px;
@@ -436,6 +445,9 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  .contact-form {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.7);
+  }
   .contact-form form input[type=text] {
     width: 95%;
     margin-top: 12.5px;
@@ -450,7 +462,7 @@ body {
     width: 60%;
   }
   .contact-form form textarea {
-    width: 100%;
+    width: 95%;
     height: 300px;
   }
 }
