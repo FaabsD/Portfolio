@@ -372,6 +372,16 @@ body {
   height: 20px;
   background-color: #000080;
 }
+.about .skills .skills__download .download__button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: #000080;
+  border-radius: 2rem;
+}
 
 @media screen and (min-width: 1024px) {
   .about {
