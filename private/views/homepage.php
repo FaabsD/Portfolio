@@ -91,7 +91,7 @@
 			</div>
 		</div>
         <div class="skills__download">
-            <a class="download__button" href="<?php echo site_url('/downloads/Curriculum-Vitea-Fabian-Hendriks.pdf')?>" download>Download mijn CV</a>
+            <a class="download__button" href="<?php echo site_url('/downloads/Curriculum-Vitea-Fabian-Hendriks.pdf')?>" download><i class="fas fa-download"></i> Download mijn CV</a>
         </div>
 	</div>
 </div>
