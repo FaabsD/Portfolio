@@ -13,16 +13,20 @@ body
     font-family: $Open-Sans
     main
         .info
-            background-color: #6801b2
+            background-color: rgba(255, 255, 255, 0.7)
 @media screen and (min-width: $tablet)
     main
-        max-width: 90vw
         display: grid
         grid-template-columns: 1fr 1fr
         grid-gap: 100px
         margin-left: auto
         margin-right: auto
         .info
+            border-radius: 1rem
+            width: 90%
+            margin-right: auto
+            margin-left: auto
+            box-shadow: $black-box
             grid-column: 1/-1
             display: grid
             grid-template-columns: 1fr 1fr
@@ -30,6 +34,7 @@ body
     main
         max-width: 95vw
         .info
+            width: unset
             grid-column: 1/-1
             grid-template-columns: 1fr 1fr
 @import 'header'

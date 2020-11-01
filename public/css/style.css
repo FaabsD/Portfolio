@@ -14,12 +14,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 body main .info {
-  background-color: #6801b2;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 @media screen and (min-width: 1024px) {
   main {
-    max-width: 90vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 100px;
@@ -27,6 +26,11 @@ body main .info {
     margin-right: auto;
   }
   main .info {
+    border-radius: 1rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.7);
     grid-column: 1/-1;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -37,6 +41,7 @@ body main .info {
     max-width: 95vw;
   }
   main .info {
+    width: unset;
     grid-column: 1/-1;
     grid-template-columns: 1fr 1fr;
   }
@@ -347,7 +352,6 @@ body main .info {
   }
 }
 .about {
-  background-color: rgba(255, 255, 255, 0.7);
   margin-top: 50px;
   padding-top: 1rem;
   padding-left: 25px;
@@ -410,7 +414,6 @@ body main .info {
 
 @media screen and (min-width: 1024px) {
   .about {
-    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.7);
     padding: 1.5rem;
     margin-top: unset;
   }
@@ -452,6 +455,7 @@ body main .info {
   font-size: 1em;
 }
 .contact-form h2 {
+  color: #000080;
   font-size: 20px;
 }
 .contact-form form input[type=text],
@@ -469,7 +473,7 @@ body main .info {
   box-shadow: 0 0 6px 0 black;
 }
 .contact-form form input[name=subject] {
-  width: 75%;
+  width: 100%;
   box-shadow: 0 0 6px 0 black;
 }
 .contact-form form textarea {
