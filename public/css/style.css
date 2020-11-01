@@ -13,6 +13,9 @@ html, body {
 body {
   font-family: "Open Sans", sans-serif;
 }
+body main .info {
+  background-color: #6801b2;
+}
 
 @media screen and (min-width: 1024px) {
   main {
@@ -23,10 +26,19 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+  main .info {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media screen and (min-width: 1100px) {
   main {
     max-width: 95vw;
+  }
+  main .info {
+    grid-column: 1/-1;
+    grid-template-columns: 1fr 1fr;
   }
 }
 /* pas de stijl van het introductie scherm aan */
@@ -433,7 +445,6 @@ body {
   }
 }
 .contact-form {
-  background-color: rgba(255, 255, 255, 0.7);
   padding: 1rem;
   text-align: center;
   padding-left: 25px;
@@ -487,9 +498,6 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-  .contact-form {
-    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.7);
-  }
   .contact-form form input[type=text] {
     width: 95%;
     margin-top: 12.5px;
