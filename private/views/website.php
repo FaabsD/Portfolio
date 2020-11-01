@@ -33,8 +33,10 @@
     </header>
     <main>
         <?php echo $this->section('projects')?>
-        <?php echo $this->section('about')?>
-        <?php echo $this->section('contact')?>
+        <div class="info">
+            <?php echo $this->section('about')?>
+            <?php echo $this->section('contact')?>
+        </div>
     </main>
     <footer>
         <?php echo $this->section('footer')?>
