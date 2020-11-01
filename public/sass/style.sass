@@ -11,6 +11,9 @@ html, body
     overflow-x: hidden
 body
     font-family: $Open-Sans
+    main
+        .info
+            background-color: #6801b2
 @media screen and (min-width: $tablet)
     main
         max-width: 90vw
@@ -19,9 +22,16 @@ body
         grid-gap: 100px
         margin-left: auto
         margin-right: auto
+        .info
+            grid-column: 1/-1
+            display: grid
+            grid-template-columns: 1fr 1fr
 @media screen and (min-width: $desktop)
     main
         max-width: 95vw
+        .info
+            grid-column: 1/-1
+            grid-template-columns: 1fr 1fr
 @import 'header'
 @import 'projects-container'
 @import 'container'
