@@ -3,15 +3,17 @@
     padding-left: 25px
     padding-right: 25px
 .container-item
+    max-height: 500px
     box-shadow: $black-box
     background-color: rgba(255, 255, 255, 0.7)
+    border-radius: 1rem
     padding: 1rem
     text-align: center
     font-size: 1em
     margin-top: $mobile-top
     margin-bottom: $mobile-bottom
     h2
-        font-size: 20px
+        font-size: 1.2rem
     img
         height: 236px
         width: 100%
@@ -28,7 +30,7 @@
         font-weight: 600
         text-decoration: underline
     .read
-        margin: 2rem
+        margin: 1.5rem
         padding: 1rem
         color: $arrow-down
         background-color: $main
@@ -37,8 +39,7 @@
 
     .links
         .link
-            height: 35px
-            font-size: 1.7em
+            font-size: 1.5em
             margin-top: .25em
             margin-bottom: .25em
             color: $main
@@ -62,6 +63,7 @@
         margin-left: auto
         margin-right: auto
     .container-item
+        max-height: unset
         display: grid
         grid-template-rows: 1fr auto auto auto
         border-bottom: unset
@@ -69,7 +71,6 @@
         img
             object-fit: contain
             width: 100%
-            height: 465px
         p
             margin-left: auto
             margin-right: auto
@@ -80,14 +81,6 @@
             max-width: 75%
             cursor: pointer
         .links
-            display: grid
-            grid-template-columns: 1fr 1fr
-            .no-link
-                padding: 0
-                height: unset
-                font-size: 1.2em
-                a
-                    font-size: 1.2em
             .link
                 padding: 0
                 height: unset
