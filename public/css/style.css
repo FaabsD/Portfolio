@@ -131,6 +131,22 @@ body main .info {
   .intro-screen .head-text .head__links .head__link:hover {
     color: #ffffff;
   }
+
+  .project-nav {
+    /* Pas de stijl voor de knoppen bovenin de projectpagina aan */
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .project-nav .project-nav__prev, .project-nav .project-nav__home, .project-nav .project-nav__next {
+    width: 10vw;
+    background-color: #000080;
+    color: #ffffff;
+    padding: 1rem;
+    border-style: none;
+  }
 }
 .projects-container {
   margin-top: 50px;
