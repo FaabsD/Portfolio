@@ -368,11 +368,13 @@ body main .info {
   border-radius: 50%;
 }
 .about h2 {
+  color: #000080;
   font-weight: 600;
   font-size: 1.4em;
   text-decoration: underline;
 }
 .about h3 {
+  color: #000080;
   font-weight: 600;
   font-size: 1.2em;
   text-decoration: underline;
@@ -389,6 +391,9 @@ body main .info {
   text-align: left;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+.about .skills .skill strong {
+  color: #000080;
 }
 .about .skills .skill .skillbar {
   border-radius: 25em;
