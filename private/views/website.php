@@ -41,7 +41,7 @@
     <footer>
         <?php echo $this->section('footer')?>
     </footer>
-    <img src="<?php echo site_url('/images/background.jpg')?>" alt="" class="bg-img">
+    <img src="<?php echo site_url('/images/portfolio-bg.jpg')?>" alt="" class="bg-img">
 </body>
 
 </html>
