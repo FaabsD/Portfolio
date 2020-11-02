@@ -1,4 +1,6 @@
 .container
+  border-radius: 1rem
+  box-shadow: $black-box
   background-color: rgba(255, 255, 255, 0.7)
   padding: .5rem
   margin-left: auto
@@ -58,19 +60,40 @@
 
 @media screen and (min-width: $tablet)
   .container
+    grid-column: 1/-1
     box-shadow: $black-box
     width: 90vw
-    height: 100vh
+    min-height: 75vh
     margin-left: auto
     margin-right: auto
     display: grid
-    grid-template-areas: "image ." "image text"  "image ."
+    grid-template-columns: 1fr 1fr
     .container__image
       object-fit: contain
-      grid-area: image
+      grid-column: 1
+      width: available
+      height: 100%
+    .container__text
+      transform: translateY(15%)
+      word-break: break-word
+      text-align: left
+      grid-column: 2
+@media screen and (min-width: $desktop)
+  .container
+    grid-column: 1/-1
+    box-shadow: $black-box
+    width: 90vw
+    min-height: 80vh
+    margin-left: auto
+    margin-right: auto
+    display: grid
+
+    .container__image
+      object-fit: contain
+      grid-column: 1
       width: available
       height: 100%
     .container__text
       word-break: break-word
       text-align: left
-      grid-area: text
+      grid-column: 2
