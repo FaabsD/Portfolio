@@ -16,7 +16,7 @@
             margin-bottom: 6.5px
             width: 100%
             height: 50px
-            background-color: transparentize($main, .9)
+            background-color: transparentize(lighten($main, 65%), .35)
             border: none
             border-radius: 25em
             text-align: center
@@ -26,7 +26,8 @@
             box-shadow: 0 2px 1px 0 black
         textarea
             font-size: 1.2em
-            background-color: transparentize($main, .9)
+            background-color: transparentize(lighten($main, 65%), .35)
+            color: $main-text
             margin-top: 6.5px
             margin-right: 0
             margin-left: 0
@@ -68,6 +69,9 @@
         form
             input[type="text"],
             input[type="email"]
-                width: 55%
+                width: 65%
             input[name="subject"]
-                width: 55%
+                width: 65%
+            textarea
+                width: 65%
+                height: unset
